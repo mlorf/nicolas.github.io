@@ -38,3 +38,15 @@ ____________/
 - Dans le navigateur, aller a "127.0.0.1" Et vérifier si le fichier "README" est bien visible
 
 
+Pour ajouter un utilisateur en collaborateur :
+Settings > Collaborators
+
+Pour générer des pages :
+Repository > Settings > Automatic page generator
+
+Cloner / mettre à jour le répertoire sur la machine virtuelle :
+$ cd /home/xubuntu/site/
+$ git clone https://github.com/username/repositoryname.github.io.git
+
+$ cd /home/xubuntu/site/repositoryname.github.io
+$ jekyll serve
