@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -13,15 +14,16 @@
 </head>
 <body>
 <div class="wrapper">
-<header>
-<h1>narribard.github.io</h1>
-<p>Repository</p>
-<p class="view"><a href="https://github.com/narribard">View My GitHub Profile</a></p>
-</header>
-{{content}}
-<footer>
-<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-</footer>
+
+
+{% include header.html%}
+
+<body>
+{{ content }}
+</body>
+
+{% include footer.html%}
+
 </div>
 <script src="javascripts/scale.fix.js"></script>
 </body>
